@@ -1,4 +1,4 @@
-var orm = require("../config/connection.js");
+var connection= require("../config/connection.js");
 
 // printing  question marks since we are doing 3 operations
 function printQuestionMarks(num) {
@@ -15,6 +15,26 @@ function printQuestionMarks(num) {
 
 // function to convert object to SQL Syntax
 function objToSql(ob) {
-    var arr= []
+    var arr= [];
+
+    // this is a loop to get through the keys and push the values as
+    // string
+for (var key in ob) {
+    var value = ob[key];
+
+    if (Object.hasOwnProperty.call(ob.key)) {
+        
+
+    }
+
+    
+
+
+
+}
+    
+
+
+
 
 }
