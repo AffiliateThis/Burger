@@ -3,9 +3,9 @@
 <h2>Because you like the burger</h2>
 
 <ul>
-    {{#each burger}}
+    {{#each burgers}}
     {{#unless devoured}}
-    {{> burger/burger-block devoured=true}}
+    <li>{{ burger_name}}</li>
     {{/unless}}
     {{/each}}
 
